@@ -60,3 +60,12 @@ export const PublicationEntry = ({ date, title, authors, journal, description, t
     </div>
   );
 };
+
+export const SkillsEntry = ({ category, skills }) => {
+  return (
+    <div className="text-base py-1 pl-10">
+      <span className="font-bold">{category}: </span>
+      <span>{skills.join(', ')}</span>
+    </div>
+  );
+};
