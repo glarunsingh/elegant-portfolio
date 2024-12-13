@@ -161,6 +161,34 @@ const IndexPage = () => {
               category={'Frameworks & Tools'}
               skills={['LangChain', 'Azure Functions', 'REST APIs', 'FastAPI', 'CI/CD tools (GitHub Actions, Azure DevOps)']}
             />
+            <SkillsEntry
+              category={'Generative AI Technologies'}
+              skills={['Open-source and paid LLM models (Azure OpenAI, Google Gemini Pro)']}
+            />
+            <SkillsEntry
+              category={'Vector Databases'}
+              skills={['FAISS', 'Cosmos DB', 'Azure AI Search']}
+            />
+            <SkillsEntry
+              category={'Database Management'}
+              skills={['SQL (MySQL)', 'NoSQL (MongoDB, Cosmos DB)']}
+            />
+            <SkillsEntry
+              category={'Deployment Platforms'}
+              skills={['Azure']}
+            />
+            <SkillsEntry
+              category={'AI/ML Techniques'}
+              skills={['Fine-tuning with custom data', 'Vector embedding', 'NLP', 'Document processing pipelines', 'MLOps']}
+            />
+            <SkillsEntry
+              category={'Soft Skills'}
+              skills={['Analytical thinking', 'Problem-solving', 'Teamwork', 'Effective communication', 'Project management']}
+            />
+            <SkillsEntry
+              category={'Methodologies'}
+              skills={['Software Development Life Cycle (SDLC)', 'Agile', 'Scrum']}
+            />
           </section>
 
           <section id="contact">
