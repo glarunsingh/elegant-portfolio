@@ -116,18 +116,18 @@ const IndexPage = () => {
             <div id="education" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>Education</h1>
             <EducationEntry
-              date={'2021 - 2022'}
-              university={'University 2'}
-              degree={'Degree 2'}
-              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-              tags={['Subject 1', 'Subject 2', 'Subject 3']}
+              date={'2010 - 2013'}
+              university={'Anna University, Chennai'}
+              degree={'Master of Computer Application'}
+              description={'specialized training in software development, artificial intelligence, machine learning, and cybersecurity, in addition to imparting a deep understanding of programming, algorithms, and data structures.'}
+              tags={['Cloud Computing', 'Networking', 'Software testing']}
             />
             <EducationEntry
-              date={'2020 - 2021'}
-              university={'University 1'}
-              degree={'Degree 1'}
-              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-              tags={['Subject 1', 'Subject 2', 'Subject 3']}
+              date={'2007 - 2010'}
+              university={'Vellore Institute of Technology, Vellore'}
+              degree={'Bachelor of Computer Application'}
+              description={'I gained comprehensive knowledge and skills in various areas including Data Analysis, Web Development, Cyber Security, Software Development, Technical Analysis, Management of Information Systems, Network Management, and Application Development.'}
+              tags={['Data Structures', 'Python Programming', 'Database Management']}
             />
           </section>
 
