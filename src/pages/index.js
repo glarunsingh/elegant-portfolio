@@ -157,6 +157,10 @@ const IndexPage = () => {
               category={'Programming Languages'}
               skills={['Python']}
             />
+            <SkillsEntry
+              category={'Frameworks & Tools'}
+              skills={['LangChain', 'Azure Functions', 'REST APIs', 'FastAPI', 'CI/CD tools (GitHub Actions, Azure DevOps)']}
+            />
           </section>
 
           <section id="contact">
