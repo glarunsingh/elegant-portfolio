@@ -86,7 +86,7 @@ const Layout = ({ pageTitle, children }) => {
                   </div>
                   <Link to="/" className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> About </Link>
                   <Link to="/projects" className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> Projects </Link>
-                  <Link to="/blog" className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> Blog </Link>
+                  {/* <Link to="/blog" className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> Blog </Link> */}
                   <Link href="https://drive.google.com/file/d/1HyO5FKE_gDuAp_FHQ7Y_BM-HUzsoVmRG/view?usp=sharing" target='_blank' className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> CV </Link>
                   <div className="flex justify-center text-center inset-x-0 inset-y-0 px-4 py-2" onClick={handleToggleDarkMode}>
                     {darkMode ? <icons.RiSunFill className="cursor-pointer text-white dark:text-slate-800 hover:scale-150 duration-300" size={18}/> : <icons.RiMoonFill className="cursor-pointer text-white dark:text-slate-800 hover:scale-150 duration-300" size={18} />}
