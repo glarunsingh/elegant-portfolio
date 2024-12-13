@@ -20,19 +20,19 @@ const IndexPage = () => {
           />
           {/* Social links */}
           <div className='flex flex-row mx-auto place-items-center space-x-8 overflow-visible'>
-            <Link href="https://www.linkedin.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com/in/glarunsingh/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="LinkedIn">
               <icons.RiLinkedinBoxFill size={32}></icons.RiLinkedinBoxFill>
             </Link>
-            <Link href="https://github.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Github">
+            <Link href="https://github.com/glarunsingh" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Github">
               <icons.RiGithubFill size={32}></icons.RiGithubFill>
             </Link>
-            <Link href="https://www.twitter.com/" className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Twitter">
+            <Link href="https://www.x.com/arunsinghg" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Twitter">
               <icons.RiTwitterFill size={32}></icons.RiTwitterFill>
             </Link>
-            <Link href="https://scholar.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='Google Scholar'>
+            {/* <Link href="https://scholar.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='Google Scholar'>
               <i className="ai ai-google-scholar ai-size-32"></i>
-            </Link>
-            <Link href="https://drive.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
+            </Link> */}
+            <Link href="https://drive.google.com/file/d/1HyO5FKE_gDuAp_FHQ7Y_BM-HUzsoVmRG/view" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
               <i className="ai ai-cv ai-size-32"></i>
             </Link>
           </div>
