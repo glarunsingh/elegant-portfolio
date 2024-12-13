@@ -133,13 +133,13 @@ const IndexPage = () => {
 
           <section>
             <div id="publications" className='-translate-y-16'/>
-            <h1 className='text-2xl py-4 font-medium'>Publications</h1>
+            <h1 className='text-2xl py-4 font-medium'>Certification</h1>
             <PublicationEntry
-              date={'2023'}
-              title={'Publication 2'}
-              authors={'Author 1, Author 2'}
-              journal={'Journal 2'}
-              tags={['Keyword 1', 'Keyword 2', 'Keyword 3']}
+              date={'2024'}
+              title={'Complete Data Science,Machine Learning,DL,NLP Bootcamp'}
+              authors={'Krish Naik'}
+              // journal={'Journal 2'}
+              tags={['Data Science', 'Machine Learning', 'NLP']}
             />
             <PublicationEntry
               date={'2022'}
