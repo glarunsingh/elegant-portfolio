@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
-import { ExperienceEntry, EducationEntry, PublicationEntry, SkillsEntry } from '../components/curriculumEntry';
+import { ExperienceEntry, EducationEntry, PublicationEntry, SkillsEntry} from '../components/curriculumEntry';
 import { Link } from 'gatsby';
 import * as icons from 'react-icons/ri';
 import scrollTo from 'gatsby-plugin-smoothscroll';
@@ -97,18 +97,18 @@ const IndexPage = () => {
               tags={['Python', 'LLM', 'RAG', 'MultiAgent Framework']}
             />
             <ExperienceEntry
-              date={'Jan\u00a02021 - Dec\u00a02021'}
-              title={'Job 2'}
-              company={'Company 2'}
-              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-              tags={['Skill 1', 'Skill 2', 'Skill 3']}
+              date={'Sept\u00a02016 - Aug\u00a02019'}
+              title={'Senior Software Engineer'}
+              company={'BORN Commerce Private Limited, Chennai'}
+              description={'Extensive experience in gathering requirements, creating Process Understanding Documents (PDDs), and providing effective solutions using Solution Design Documents (SDDs). Maintaining a proactive approach to customers requests, solving hurdles while automating, and clearing roadblocks to get the desired result.'}
+              tags={['RPA', 'UiPath', 'Computer Vision']}
             />
             <ExperienceEntry
-              date={'Jan\u00a02020 - Dec\u00a02020'}
-              title={'Job 1'}
-              company={'Company 1'}
-              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-              tags={['Skill 1', 'Skill 2', 'Skill 3']}
+              date={'Jan\u00a02014 - Sept\u00a02016'}
+              title={'Software Test Engineer'}
+              company={'Amazon Development Center (India) Private Limited, Chennai'}
+              description={'Worked across 6 Generations of Amazon Kindle devices from the scratch to successful customer release and various OTA builds for 9 generation devices. Took Complete ownership of Build acceptance testing (BAT/BVT) in 18 locales with respective marketplaces and decided the QA acceptance/reject based on issues faced.'}
+              tags={['Automation Testing', 'Build Acceptance testing', 'Regression Testing']}
             />
           </section>
 
