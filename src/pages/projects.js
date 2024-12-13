@@ -48,18 +48,27 @@ const ProjectsPage = () => {
       <div className='pt-2 pb-4 grid grid-cols-1 xl:grid-cols-2 place-items-start xl:place-items-center gap-8 transition ease-in-out duration-300'> 
       
         <ProjectEntry
-          title={'Project 2'}
-          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-          tags={['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4', 'Skill 5']}
+          title={'Automated Project Estimation Assistant'}
+          description={'Developed an AI-driven tool for generating accurate project estimates based on user inputs from either a Process Definition Document (PDD) or a high-level project summary.'}
+          tags={['Azure OpenAI', 'Python', 'MultiAgent Framework', 'Autogen', 'Azure Functions', 'Flask']}
           projectLink={'/'}
           codeLink={'https://github.com/'}
           >
         </ProjectEntry>
 
         <ProjectEntry
-          title={'Project 1'}
-          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-          tags={['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4', 'Skill 5']}
+          title={'Sales Digest'}
+          description={'Developed a Sales Digest application for sales executives by extracting data from various sources and utilizing Generative AI to summarize content, perform sentiment analysis, and implement a feedback mechanism.'}
+          tags={['Azure OpenAI', 'Python', 'LangChain', 'AI Search', 'Azure Functions', 'Logic Apps', 'Cosmos DB']}
+          projectLink={'/'}
+          codeLink={'https://github.com/'}
+          >
+        </ProjectEntry>
+
+        <ProjectEntry
+          title={'HRSS_Chatbot'}
+          description={'Developed a chatbot application to assist users with HR policies and address queries efficiently, leveraging advanced document processing techniques for accurate and timely responses.'}
+          tags={['Azure OpenAI', 'Python', 'LangChain', 'AI Search', 'Azure Functions', 'Logic Apps', 'Chroma VectorDB', 'Mango DB']}
           projectLink={'/'}
           codeLink={'https://github.com/'}
           >
