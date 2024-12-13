@@ -195,10 +195,13 @@ const IndexPage = () => {
             <div id="contact" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>Contact</h1>
             <p>
-              If you are interested in discussing, please feel free to reach out ! You can contact me at the following email adress: 
+              If you are interested in discussing, please feel free to reach out ! You can contact me at the following:  
             </p>    
             <p>
-              contact [dot] me @ email [dot] com
+              <b>Email address:</b> gl.arunsingh@gmail.com
+            </p>
+            <p>
+              <b>Phone:</b> +91 75500 67345
             </p>
           </section>
         </div>
