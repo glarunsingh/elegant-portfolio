@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
-import { ExperienceEntry, EducationEntry, PublicationEntry, SkillsEntry } from '../components/curriculumEntry';
+import { ExperienceEntry, EducationEntry, PublicationEntry } from '../components/curriculumEntry';
 import { Link } from 'gatsby';
 import * as icons from 'react-icons/ri';
 import scrollTo from 'gatsby-plugin-smoothscroll';
@@ -20,19 +20,19 @@ const IndexPage = () => {
           />
           {/* Social links */}
           <div className='flex flex-row mx-auto place-items-center space-x-8 overflow-visible'>
-            <Link href="https://www.linkedin.com/in/glarunsingh/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="LinkedIn">
               <icons.RiLinkedinBoxFill size={32}></icons.RiLinkedinBoxFill>
             </Link>
-            <Link href="https://github.com/glarunsingh" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Github">
+            <Link href="https://github.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Github">
               <icons.RiGithubFill size={32}></icons.RiGithubFill>
             </Link>
-            <Link href="https://x.com/arunsinghg" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Twitter">
+            <Link href="https://www.twitter.com/" className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Twitter">
               <icons.RiTwitterFill size={32}></icons.RiTwitterFill>
             </Link>
-            {/* <Link href="https://scholar.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='Google Scholar'>
+            <Link href="https://scholar.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='Google Scholar'>
               <i className="ai ai-google-scholar ai-size-32"></i>
-            </Link> */}
-            <Link href="https://drive.google.com/file/d/1HyO5FKE_gDuAp_FHQ7Y_BM-HUzsoVmRG/view" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
+            </Link>
+            <Link href="https://drive.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
               <i className="ai ai-cv ai-size-32"></i>
             </Link>
           </div>
@@ -49,11 +49,7 @@ const IndexPage = () => {
             </div>
             <div className='flex flex-row items-center group'>
                 <hr className='w-6 group-hover:w-8 mr-2 border-1 border-slate-800 dark:border-white group-transition ease-in-out duration-300'></hr>
-                <button onClick={() => scrollTo("#publications")} className='peer hover:underline'>Certifications</button>
-            </div>
-            <div className='flex flex-row items-center group'>
-              <hr className='w-6 group-hover:w-8 mr-2 border-1 border-slate-800 dark:border-white group-transition ease-in-out duration-300'></hr>
-              <button onClick={() => scrollTo("#skills")} className='peer hover:underline'>Skills</button>
+                <button onClick={() => scrollTo("#publications")} className='peer hover:underline'>Publications</button>
             </div>
             <div className='flex flex-row items-center group'>
               <hr className='w-6 group-hover:w-8 mr-2 border-1 border-slate-800 dark:border-white group-transition ease-in-out duration-300'></hr>
@@ -64,25 +60,25 @@ const IndexPage = () => {
 
         {/* Text and content */}
         <div className="container flex flex-col">
-          <h1 className="text-3xl font-bold mb-4">Hi, I'm Arun Singh G!</h1>
+          <h1 className="text-3xl font-bold mb-4">Hi, I'm Author!</h1>
 
           <p className="mb-4">
-          I am a Generative AI developer with a robust background in Robotic Process Automation and Software Testing. 
-          I hold a Master’s degree in Computer Applications from Anna University and a Bachelor's degree from Vellore 
-          Institute of Technology.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+            mollit anim id est laborum.
           </p>
           <p className="mb-4">
-          Currently, I am a member of the GenAI CoE and R&D team. My role involves deeply understanding business problems, 
-          researching the latest technologies in the market, conducting Proof of Concepts (POCs), and transforming these POCs 
-          into business proposals that secure contracts from clients. I am continually learning about the latest RAG techniques, 
-          Multi-Agent frameworks, and LLM models to develop the best possible solutions for various challenges.
+            Aliquam ac erat suscipit ipsum feugiat sollicitudin quis ut risus. Suspendisse id ipsum at justo 
+            facilisis luctus. Suspendisse eleifend ullamcorper massa, nec malesuada tortor ornare eget. 
+            Curabitur tristique tincidunt odio, id tincidunt mauris semper in. 
           </p>
           <p className="mb-4">
-          Beyond my technical expertise, I was born and raised in Tamil Nadu. In my leisure time, I enjoy a good game of badminton 
-          and cricket with friends, reading self-help books and non-fictional stories. I am also an active trader and investor, 
-          constantly learning about the stock market and global macroeconomic trends. I love traveling the world to broaden my
-           understanding of different cultures, and I am working on improving my photography skills, though I have not quite mastered
-            it yet!
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac 
+            habitasse platea dictumst. Donec eu turpis sapien. Suspendisse imperdiet urna a vehicula aliquet. 
+            Vestibulum vel elementum enim, in ultricies arcu. Interdum et malesuada fames ac ante ipsum primis in 
+            faucibus. Mauris ac cursus eros, varius fermentum massa.
           </p>
 
           {/* Timeline */}
@@ -90,25 +86,25 @@ const IndexPage = () => {
             <div id="experience" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>Experience</h1>
             <ExperienceEntry
-              date={'Sept\u00a02019 - Present'}
-              title={'Generative AI Developer'}
-              company={'Cognizant Technology Solutions, Chennai'}
-              description={'Led the development and deployment of advanced Generative AI solutions using LangChain and Azure OpenAI models, and the Microsoft Autogen framework, driving innovation and digital transformation in AI applications'}
-              tags={['Python', 'LLM', 'RAG', 'MultiAgent Framework']}
+              date={'Jan\u00a02022 - Dec\u00a02022'}
+              title={'Job 3'}
+              company={'Company 3'}
+              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+              tags={['Skill 1', 'Skill 2', 'Skill 3']}
             />
             <ExperienceEntry
-              date={'Sept\u00a02016 - Aug\u00a02019'}
-              title={'Senior Software Engineer'}
-              company={'BORN Commerce Private Limited, Chennai'}
-              description={'Extensive experience in gathering requirements, creating Process Understanding Documents (PDDs), and providing effective solutions using Solution Design Documents (SDDs). Maintaining a proactive approach to customers requests, solving hurdles while automating, and clearing roadblocks to get the desired result.'}
-              tags={['RPA', 'UiPath', 'Computer Vision']}
+              date={'Jan\u00a02021 - Dec\u00a02021'}
+              title={'Job 2'}
+              company={'Company 2'}
+              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+              tags={['Skill 1', 'Skill 2', 'Skill 3']}
             />
             <ExperienceEntry
-              date={'Jan\u00a02014 - Sept\u00a02016'}
-              title={'Software Test Engineer'}
-              company={'Amazon Development Center (India) Private Limited, Chennai'}
-              description={'Worked across 6 Generations of Amazon Kindle devices from the scratch to successful customer release and various OTA builds for 9 generation devices. Took Complete ownership of Build acceptance testing (BAT/BVT) in 18 locales with respective marketplaces and decided the QA acceptance/reject based on issues faced.'}
-              tags={['Automation Testing', 'Build Acceptance testing', 'Regression Testing']}
+              date={'Jan\u00a02020 - Dec\u00a02020'}
+              title={'Job 1'}
+              company={'Company 1'}
+              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+              tags={['Skill 1', 'Skill 2', 'Skill 3']}
             />
           </section>
 
@@ -116,78 +112,37 @@ const IndexPage = () => {
             <div id="education" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>Education</h1>
             <EducationEntry
-              date={'2010 - 2013'}
-              university={'Anna University, Chennai'}
-              degree={'Master of Computer Application'}
-              description={'specialized training in software development, artificial intelligence, machine learning, and cybersecurity, in addition to imparting a deep understanding of programming, algorithms, and data structures.'}
-              tags={['Cloud Computing', 'Networking', 'Software testing']}
+              date={'2021 - 2022'}
+              university={'University 2'}
+              degree={'Degree 2'}
+              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+              tags={['Subject 1', 'Subject 2', 'Subject 3']}
             />
             <EducationEntry
-              date={'2007 - 2010'}
-              university={'Vellore Institute of Technology, Vellore'}
-              degree={'Bachelor of Computer Application'}
-              description={'I gained comprehensive knowledge and skills in various areas including Data Analysis, Web Development, Cyber Security, Software Development, Technical Analysis, Management of Information Systems, Network Management, and Application Development.'}
-              tags={['Data Structures', 'Python Programming', 'Database Management']}
+              date={'2020 - 2021'}
+              university={'University 1'}
+              degree={'Degree 1'}
+              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+              tags={['Subject 1', 'Subject 2', 'Subject 3']}
             />
           </section>
 
           <section>
             <div id="publications" className='-translate-y-16'/>
-            <h1 className='text-2xl py-4 font-medium'>Certifications</h1>
+            <h1 className='text-2xl py-4 font-medium'>Publications</h1>
             <PublicationEntry
-              date={'2024'}
-              title={'Complete Data Science,Machine Learning,DL,NLP Bootcamp'}
-              authors={'Krish Naik'}
-              // journal={'Journal 2'}
-              tags={['Data Science', 'Machine Learning', 'NLP']}
+              date={'2023'}
+              title={'Publication 2'}
+              authors={'Author 1, Author 2'}
+              journal={'Journal 2'}
+              tags={['Keyword 1', 'Keyword 2', 'Keyword 3']}
             />
-            {/* <PublicationEntry
+            <PublicationEntry
               date={'2022'}
               title={'Publication 1'}
               authors={'Author 1, Author 2, Author 3'}
               journal={'Journal 1'}
               tags={['Keyword 1', 'Keyword 2', 'Keyword 3']}
-            /> */}
-          </section>
-          
-          <section>
-            <div id="skills" className='-translate-y-16' />
-            <h1 className='text-2xl py-4 font-medium'>Skills</h1>
-            <SkillsEntry
-              category={'Programming Languages'}
-              skills={['Python']}
-            />
-            <SkillsEntry
-              category={'Frameworks & Tools'}
-              skills={['LangChain', 'Azure Functions', 'REST APIs', 'FastAPI', 'CI/CD tools (GitHub Actions, Azure DevOps)']}
-            />
-            <SkillsEntry
-              category={'Generative AI Technologies'}
-              skills={['Open-source and paid LLM models (Azure OpenAI, Google Gemini Pro)']}
-            />
-            <SkillsEntry
-              category={'Vector Databases'}
-              skills={['FAISS', 'Cosmos DB', 'Azure AI Search']}
-            />
-            <SkillsEntry
-              category={'Database Management'}
-              skills={['SQL (MySQL)', 'NoSQL (MongoDB, Cosmos DB)']}
-            />
-            <SkillsEntry
-              category={'Deployment Platforms'}
-              skills={['Azure']}
-            />
-            <SkillsEntry
-              category={'AI/ML Techniques'}
-              skills={['Fine-tuning with custom data', 'Vector embedding', 'NLP', 'Document processing pipelines', 'MLOps']}
-            />
-            <SkillsEntry
-              category={'Soft Skills'}
-              skills={['Analytical thinking', 'Problem-solving', 'Teamwork', 'Effective communication', 'Project management']}
-            />
-            <SkillsEntry
-              category={'Methodologies'}
-              skills={['Software Development Life Cycle (SDLC)', 'Agile', 'Scrum']}
             />
           </section>
 
@@ -195,13 +150,10 @@ const IndexPage = () => {
             <div id="contact" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>Contact</h1>
             <p>
-              If you are interested in discussing, please feel free to reach out ! You can contact me at the following:  
+              If you are interested in discussing, please feel free to reach out ! You can contact me at the following email adress: 
             </p>    
             <p>
-              <b>Email address:</b> gl.arunsingh@gmail.com
-            </p>
-            <p>
-              <b>Phone:</b> +91 75500 67345
+              contact [dot] me @ email [dot] com
             </p>
           </section>
         </div>
