@@ -85,6 +85,15 @@ const IndexPage = () => {
             it yet!
           </p>
 
+          <section>
+            <div id="skills" className='-translate-y-16' />
+            <h1 className='text-2xl py-4 font-medium'>Skills</h1>
+            <SkillsEntry
+              category={'Programming Languages'}
+              skills={['Python']}
+            />
+          </section>
+
           {/* Timeline */}
           <section>
             <div id="experience" className='-translate-y-16'/>
