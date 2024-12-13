@@ -153,7 +153,7 @@ const IndexPage = () => {
           <section>
             <div id="skills" className='-translate-y-16' />
             <h1 className='text-2xl py-4 font-medium'>Skills</h1>
-            <SkillsEntry
+            <PublicationEntry
               category={'Programming Languages'}
               skills={['Python']}
             />
