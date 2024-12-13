@@ -59,7 +59,7 @@ const Layout = ({ pageTitle, children }) => {
                 <icons.RiHome3Fill className="text-slate-800 dark:text-white hover:scale-150 duration-300" size={18} />
               </button>
               <div className="font-bold hover:underline p-2 text-center">
-                Author
+                Arun Singh G
               </div>
             </Link>
             {/* Big screens: links and dark mode button*/}
@@ -68,7 +68,7 @@ const Layout = ({ pageTitle, children }) => {
                 <ul className="flex flex-row justify-end items-center list-none space-x-4 font-bold">
                   <li><Link to="/" className='hover:underline'>About</Link></li>
                   <li><Link to="/projects" className='hover:underline'>Projects</Link></li>
-                  <li><Link to="/blog" className='hover:underline'>Blog</Link></li>
+                  {/* <li><Link to="/blog" className='hover:underline'>Blog</Link></li> */}
                   <li><Link href="https://drive.google.com/" target='_blank' rel="noreferrer" className='hover:underline'>CV</Link></li>
                   <div className="cursor-pointer inset-x-0 inset-y-0" onClick={handleToggleDarkMode}>
                     {darkMode ? <icons.RiSunFill className="text-slate-800 dark:text-white hover:scale-150 duration-300" size={18}/> : <icons.RiMoonFill className="text-slate-800 dark:text-white hover:scale-150 duration-300" size={18} />}
@@ -87,7 +87,7 @@ const Layout = ({ pageTitle, children }) => {
                   <Link to="/" className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> About </Link>
                   <Link to="/projects" className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> Projects </Link>
                   <Link to="/blog" className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> Blog </Link>
-                  <Link href="https://drive.google.com/" target='_blank' className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> CV </Link>
+                  <Link href="https://drive.google.com/file/d/1HyO5FKE_gDuAp_FHQ7Y_BM-HUzsoVmRG/view?usp=sharing" target='_blank' className={`flex w-full justify-center text-center px-4 py-2 text-white dark:text-slate-500 hover:bg-slate-700 dark:hover:bg-slate-200 hover:underline`} onClick={()=>setIsOpen(false)}> CV </Link>
                   <div className="flex justify-center text-center inset-x-0 inset-y-0 px-4 py-2" onClick={handleToggleDarkMode}>
                     {darkMode ? <icons.RiSunFill className="cursor-pointer text-white dark:text-slate-800 hover:scale-150 duration-300" size={18}/> : <icons.RiMoonFill className="cursor-pointer text-white dark:text-slate-800 hover:scale-150 duration-300" size={18} />}
                   </div>
@@ -116,7 +116,7 @@ const Layout = ({ pageTitle, children }) => {
 
         <footer className="container mx-auto text-center text-sm pb-2">
         <p class="cp-text">
-          © {new Date().getFullYear()} <span className="font-bold">Designed by Author. Inspired by <Link href='https://www.github.com/ibrahim-didi/elegant-portfolio'>elegant-portfolio</Link>.</span>
+          © {new Date().getFullYear()} <span className="font-bold">Arun Singh G</span>
         </p>
         </footer>
       </main>
