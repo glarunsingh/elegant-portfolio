@@ -141,12 +141,21 @@ const IndexPage = () => {
               // journal={'Journal 2'}
               tags={['Data Science', 'Machine Learning', 'NLP']}
             />
-            <PublicationEntry
+            {/* <PublicationEntry
               date={'2022'}
               title={'Publication 1'}
               authors={'Author 1, Author 2, Author 3'}
               journal={'Journal 1'}
               tags={['Keyword 1', 'Keyword 2', 'Keyword 3']}
+            /> */}
+          </section>
+
+          <section>
+            <div id="skills" className='-translate-y-16' />
+            <h1 className='text-2xl py-4 font-medium'>Skills</h1>
+            <SkillsEntry
+              category={'Programming Languages'}
+              skills={['Python']}
             />
           </section>
 
