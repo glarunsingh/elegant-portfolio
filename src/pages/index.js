@@ -32,7 +32,7 @@ const IndexPage = () => {
             {/* <Link href="https://scholar.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='Google Scholar'>
               <i className="ai ai-google-scholar ai-size-32"></i>
             </Link> */}
-            <Link href="https://drive.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
+            <Link href="https://drive.google.com/file/d/1LiHmonYeWYrzgq5YvhjMtc74hJarTRNh/view?usp=sharing" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
               <i className="ai ai-cv ai-size-32"></i>
             </Link>
           </div>
